@@ -47,14 +47,14 @@ h1, h2, h3 {
   font-size: 20px;
 }
 
-/* HERO */
 .hero {
   position: relative;
   height: 70vh;
-  background: url('https://images.unsplash.com/photo-1521412644187-c49fa049e84d') center/cover no-repeat;
+  background: url('https://images.unsplash.com/photo-1500930280485-6a2f4e1a6f5d') center/cover no-repeat;
   display: flex;
   align-items: center;
 }
+
 
 .hero-overlay {
   position: absolute;
