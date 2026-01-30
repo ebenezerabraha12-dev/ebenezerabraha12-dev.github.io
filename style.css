@@ -50,7 +50,10 @@ h1, h2, h3 {
 .hero {
   position: relative;
   height: 70vh;
-  background: url('MyFutureMyGame.png') center/contain no-repeat;
+  background-image: url('https://ebenezerabraha12-dev.github.io/MyFutureMyGame.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   background-color: #ffffff;
   display: flex;
   align-items: center;
