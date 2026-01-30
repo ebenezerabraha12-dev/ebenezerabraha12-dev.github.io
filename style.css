@@ -50,16 +50,15 @@ h1, h2, h3 {
 .hero {
   position: relative;
   height: 70vh;
-  background: url('https://images.unsplash.com/photo-1500930280485-6a2f4e1a6f5d') center/cover no-repeat;
+  background: url('hero-logo.png') center/contain no-repeat;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
-
 .hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(15, 23, 42, 0.6);
+  display: none;
 }
 
 .hero-content {
