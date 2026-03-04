@@ -53,18 +53,15 @@ h1, h2, h3 {
   background-image: url('https://ebenezerabraha12-dev.github.io/MyFutureMyGame.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
-  isolation: isolate; /* 🔑 ADD THIS */
 }
 
 .hero-overlay {
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.6);
-  z-index: 1;
+  display: none;
 }
 
 .hero-content {
@@ -73,9 +70,9 @@ h1, h2, h3 {
   max-width: 600px;
 }
 
-.hero h2,
-.hero p {
-  text-shadow: 0 4px 22px rgba(0, 0, 0, 0.85);
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 12px;
 }
 
 /* SECTIONS */
