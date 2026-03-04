@@ -69,10 +69,14 @@ h1, h2, h3 {
   color: var(--white);
   max-width: 600px;
 }
-
 .hero h2 {
-  font-size: 48px;
-  margin-bottom: 12px;
+    font-size: 48px;
+    margin-bottom: 12px;
+    background: transparent;
+}
+
+.hero p {
+    background: transparent;
 }
 
 /* SECTIONS */
